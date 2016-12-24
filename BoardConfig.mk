@@ -4,7 +4,7 @@
 LOCAL_PATH := device/samsung/logan
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := logan,S7272,GT-S7272,hawaii
+TARGET_OTA_ASSERT_DEVICE := logan,S7270,GT-S7270,hawaii
 
 # Kernel
 TARGET_KERNEL_CONFIG := bcm21664_hawaii_ss_logan_rev03_cm_defconfig
