@@ -405,7 +405,7 @@ on charger
     write /sys/devices/platform/s5p-ehci/power/control auto
     
 on fs
-    mount_all /fstab.hawaii_ss_logan
+    mount_all fstab.hawaii_ss_logan
 
     # don't require sim
     setprop keyguard.no_require_sim 1

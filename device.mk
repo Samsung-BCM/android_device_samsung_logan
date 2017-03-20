@@ -11,7 +11,7 @@ DEVICE_PACKAGE_OVERLAYS +=  device/samsung/logan/overlay
 
 PRODUCT_COPY_FILES += \
     device/samsung/logan/ramdisk/init.hawaii_ss_logan.rc:root/init.hawaii_ss_logan.rc \
-	device/samsung/bcm-common/ramdisk/fstab.hawaii_ss_loganxx:root/fstab.hawaii_ss_logan \
+    device/samsung/bcm-common/ramdisk/fstab.hawaii_ss_loganxx:root/fstab.hawaii_ss_logan \
     device/samsung/bcm-common/ramdisk/ueventd.hawaii_ss_loganxx.rc:root/ueventd.hawaii_ss_logan.rc
 
 PRODUCT_PROPERTY_OVERRIDES += \
